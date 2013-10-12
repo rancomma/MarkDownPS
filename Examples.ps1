@@ -13,10 +13,11 @@ P Paragraph-OneLine
 P 'Paragraph One',
   'Paragraph Two',
   'Paragraph Three'
-L OneLine
-L 'Line One',
-  'Line Two',
-  'Line Three'
+L OneList
+P '(insert Paragraph)'
+L 'List One',
+  'List Two',
+  'List Three'
 L1 OneLine-Numbering
 P '(insert Paragraph)'
 L1 'Numbering Line One',
@@ -35,6 +36,7 @@ LC '# Add Syntax',
    'ps excel',
    '1..10 | Get-Random' -syntax PowerShell
 Q 'Quote-OneLine'
+P '(insert Paragraph)'
 Q 'Quote One',
   'Quote Two',
   'Quote Three'
