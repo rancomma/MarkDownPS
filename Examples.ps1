@@ -18,6 +18,7 @@ P '(insert Paragraph)'
 L 'List One',
   'List Two',
   'List Three'
+P '(insert Paragraph)'
 L1 OneLine-Numbering
 P '(insert Paragraph)'
 L1 'Numbering Line One',
@@ -26,6 +27,7 @@ L1 'Numbering Line One',
 L2 'Numbering Line Two'
 L2 'Numbering Line Three',
    'continue Three...'
+P '(insert Paragraph)'
 LC '# LC = Line Codes',
    'ls  Examples.ps1',
    'ps excel',

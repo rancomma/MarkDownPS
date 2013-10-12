@@ -36,6 +36,8 @@ Paragraph Three
 * List Two
 * List Three
 
+(insert Paragraph)
+
 1. OneLine-Numbering
 
 (insert Paragraph)
@@ -48,6 +50,8 @@ Paragraph Three
 
 2. Numbering Line Three
    continue Three...
+
+(insert Paragraph)
 
 
 ```
