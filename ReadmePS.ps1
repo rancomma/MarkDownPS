@@ -59,7 +59,7 @@ LC 'def robot_invasion',
    'end'
 P  "You see, that was formatted as code because it's been indented by four spaces."
 P  'How about we throw some angle braces and ampersands in there?'
-@"
+P  @"
     <div class="footer">
         &copy; 2004 Foo Corporation
     </div>
