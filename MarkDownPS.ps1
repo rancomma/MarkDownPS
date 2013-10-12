@@ -42,11 +42,11 @@ function REF
   )
   if ($Title)
   {
-    "[$Name]: $Link : `"$($Title)`""
+    "  [$Name]: $Link  `"$($Title)`""
   }
   else
   {
-    "[$Name]: $Link"
+    "  [$Name]: $Link"
   }
 }
 # MULTI LINES Function

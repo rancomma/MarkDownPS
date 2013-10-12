@@ -66,21 +66,24 @@ P  @"
 "@
 H2 'Set in stone'
 P  'Preformatted blocks are useful for ASCII art:'
-P  @'
-<pre>
-             ,-. 
-    ,     ,-.   ,-. 
-   / \   (   )-(   ) 
-   \ |  ,.>-(   )-< 
-    \|,' (   )-(   ) 
-     Y ___`-'   `-' 
-     |/__/   `-' 
-     | 
-     | 
-     |    -hrr- 
-  ___|_____________ 
-</pre>
-'@
+
+#NG POINT
+#P  @'
+#<pre>
+#             ,-. 
+#    ,     ,-.   ,-. 
+#   / \   (   )-(   ) 
+#   \ |  ,.>-(   )-< 
+#    \|,' (   )-(   ) 
+#     Y ___`-'   `-' 
+#     |/__/   `-' 
+#     | 
+#     | 
+#     |    -hrr- 
+#  ___|_____________ 
+#</pre>
+#'@
+
 H2 'Playing the blame game'
 P  'If you need to blame someone, the best way to do so is by quoting them:'
 Q  'I, at any rate, am convinced that He does not throw dice.'
