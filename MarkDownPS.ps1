@@ -1,6 +1,6 @@
 # SINGLE LINE Function
 $NEWLINE = ''
-function H1
+function H1 #Heading H1
 {
   param(
     $s
@@ -9,7 +9,7 @@ function H1
   '=' * [System.Text.Encoding]::Default.GetByteCount($s)
   $NEWLINE
 }
-function H2
+function H2 #Heading H2
 {
   param(
     $s
@@ -18,7 +18,39 @@ function H2
   '-' * [System.Text.Encoding]::Default.GetByteCount($s)
   $NEWLINE
 }
-function HR
+function H3 #Heading H3
+{
+  param(
+    $s
+  )
+  "### $($s) ###"
+  $NEWLINE
+}
+function H4 #Heading H4
+{
+  param(
+    $s
+  )
+  "#### $($s) ####"
+  $NEWLINE
+}
+function H5 #Heading H5
+{
+  param(
+    $s
+  )
+  "##### $($s) #####"
+  $NEWLINE
+}
+function H6 #Heading H6
+{
+  param(
+    $s
+  )
+  "###### $($s) ######"
+  $NEWLINE
+}
+function HR # Horizon Line
 {
   param(
     $s
@@ -33,7 +65,7 @@ function HR
   }
   $NEWLINE
 }
-function REF
+function REF # Reference
 {
   param(
     $Name,
@@ -48,9 +80,10 @@ function REF
   {
     "  [$Name]: $Link"
   }
+  $NEWLINE
 }
 # MULTI LINES Function
-function P
+function P # Paragraph
 {
   param(
     $m
@@ -60,7 +93,7 @@ function P
   }
   $NEWLINE
 }
-function L
+function L # List
 {
   param(
     $m
@@ -70,7 +103,7 @@ function L
   }
   $NEWLINE
 }
-function L1
+function L1 # List Number 1
 {
   param(
     $m
@@ -89,7 +122,7 @@ function L1
   }
   $NEWLINE
 }
-function L2
+function L2 # List Number 2...
 {
   param(
     $m
@@ -108,7 +141,7 @@ function L2
   }
   $NEWLINE
 }
-function LC # Line Code
+function LC # Codes
 {
   param(
     $m,
@@ -124,7 +157,7 @@ function LC # Line Code
   $Mark
   $NEWLINE
 }
-function Q
+function Q # Quote
 {
   param(
     $m
@@ -135,7 +168,7 @@ function Q
   $NEWLINE
 }
 # WORD Function
-function br
+function br # break
 {
   param(
     [Parameter(ValueFromPipeline=$true)]
@@ -143,7 +176,7 @@ function br
   )
   "$($s)  "
 }
-function e1
+function e1 # emphasis 1 (italic)
 {
   param(
     [Parameter(ValueFromPipeline=$true)]
@@ -151,7 +184,7 @@ function e1
   )
   "*$($s)*"
 }
-function e2
+function e2 # emphasis 2 (bold)
 {
   param(
     [Parameter(ValueFromPipeline=$true)]
@@ -159,7 +192,7 @@ function e2
   )
   "**$($s)**"
 }
-function e3
+function e3 # emphasis 3 (italicbold)
 {
   param(
     [Parameter(ValueFromPipeline=$true)]
@@ -167,7 +200,7 @@ function e3
   )
   "***$($s)***"
 }
-function itaric
+function italic # emphasis 1
 {
   param(
     [Parameter(ValueFromPipeline=$true)]
@@ -175,7 +208,7 @@ function itaric
   )
   "*$($s)*"
 }
-function bold
+function bold # emphasis 2
 {
   [CmdletBinding()]
   param(
@@ -184,7 +217,7 @@ function bold
   )
   "**$($s)**"
 }
-function italicbold
+function italicbold # emphasis 3
 {
   param(
     [Parameter(ValueFromPipeline=$true)]
@@ -192,7 +225,7 @@ function italicbold
   )
   "***$($s)***"
 }
-function code
+function code # code
 {
   param(
     [Parameter(ValueFromPipeline=$true)]
@@ -200,7 +233,7 @@ function code
   )
   "``$($s)``"
 }
-function link
+function link # link
 {
   param(
     $Title,
@@ -208,7 +241,7 @@ function link
   )
   "[$Title]($Link)"
 }
-function img
+function img # image
 {
   param(
     $ALtText,
