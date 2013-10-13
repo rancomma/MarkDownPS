@@ -8,6 +8,10 @@ P '. ./any.ps1 | Out-File -Encoding utf8 ./any.md'
 
 HR
 
+P  (e1 "View the $(link 'script of this content' 'https://github.com/rancomma/MarkDownPS/blob/master/Examples.ps1').")
+
+HR
+
 ECHO ''
 ECHO '[Headding]'
 ECHO ''
@@ -260,7 +264,7 @@ ECHO ''
 
 LC -syntax PowerShell @'
 #PowerShell
-img alt-text-here https://github.com/rancomma/MarkDownPS/github.png
+img GravatarIcon 'https://1.gravatar.com/avatar/4eae23d6f5eb59f2de0a0684d720265c?d=https%3A%2F%2Fidenticons.github.com%2F73c1b9d3d3f4a6bf331da73fac6e80a2.png&s=140'
 '@
 
 img GravatarIcon 'https://1.gravatar.com/avatar/4eae23d6f5eb59f2de0a0684d720265c?d=https%3A%2F%2Fidenticons.github.com%2F73c1b9d3d3f4a6bf331da73fac6e80a2.png&s=140'

@@ -1,5 +1,5 @@
 H1 'GitHub Flavored Markdown'
-P  (e1 "View the $(link 'source of this content' 'http://github.github.com/github-flavored-markdown/sample_content.html').")
+P  (e1 "View the $(link 'script of this content' 'https://github.com/rancomma/MarkDownPS/blob/master/GfmReadme.ps1').")
 P  "Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:"
 P  'Roses are red',
    'Violets are blue'

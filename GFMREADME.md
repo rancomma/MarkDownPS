@@ -1,7 +1,7 @@
 ﻿GitHub Flavored Markdown
 ========================
 
-*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+*View the [script of this content](https://github.com/rancomma/MarkDownPS/blob/master/GfmReadme.ps1).*
 
 Let's get the whole 
 
