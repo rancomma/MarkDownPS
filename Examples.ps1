@@ -3,6 +3,7 @@ ECHO '[Headding]'
 ECHO ''
 
 LC -syntax PowerShell @'
+#PowerShell
 H1 Heding1
 H2 Heding2
 H3 Heding3
@@ -23,6 +24,7 @@ ECHO '[Horizontal Line]'
 ECHO ''
 
 LC -syntax PowerShell @'
+#PowerShell
 HR
 HR WordsLength
 HR ---------------------
@@ -37,6 +39,7 @@ ECHO '[Reference URL]'
 ECHO ''
 
 LC -syntax PowerShell @'
+#PowerShell
 REF 1 http://google.jp google-jp
 REF 2 http://yahoo.jp yahoo-jp
 '@
@@ -57,6 +60,7 @@ ECHO '[Paragraph]'
 ECHO ''
 
 LC -syntax PowerShell @'
+#PowerShell
 P Paragraph-OneLine
 P 'Paragraph One',
   'Paragraph Two',
@@ -73,6 +77,7 @@ ECHO '[List]'
 ECHO ''
 
 LC -syntax PowerShell @'
+#PowerShell
 L 'List One',
   'List Two',
   'List Three'
@@ -87,6 +92,7 @@ ECHO '[Number List]'
 ECHO ''
 
 LC -syntax PowerShell @'
+#PowerShell
 Ln 'Number List One',
    'Number List Two',
    'Number List Three'
@@ -101,6 +107,7 @@ ECHO '[Number List, Paragraph]'
 ECHO ''
 
 LC -syntax PowerShell @'
+#PowerShell
 L1 'Numbering Line One',
    'continue One...',
    'continue One...'
@@ -120,7 +127,8 @@ ECHO ''
 ECHO '[Code]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 LC '# LC = Line Code',
    'ls  Examples.ps1',
    'ps excel',
@@ -136,7 +144,8 @@ ECHO ''
 ECHO '[Code, Syntax]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 LC '# Add Syntax',
    '# LC = Line Codes',
    'ls  Examples.ps1',
@@ -154,7 +163,8 @@ ECHO ''
 ECHO '[Quote]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 Q 'Quote One',
   'Quote Two',
   'Quote Three'
@@ -168,7 +178,8 @@ ECHO ''
 ECHO '[Break Line]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 @(
      'abc'
      'breakline' | br
@@ -186,7 +197,8 @@ ECHO ''
 ECHO '[Emphasis]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 e1 italic_word
 e2 bold_word
 e3 italicbold_word
@@ -200,7 +212,8 @@ ECHO ''
 ECHO '[Emphasis, italic, bold, italicbold]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 italic word-e1
 bold word-e2
 italicbold word-e3
@@ -214,7 +227,8 @@ ECHO ''
 ECHO '[Code]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 code '$a = 1'
 '@
 
@@ -224,7 +238,8 @@ ECHO ''
 ECHO '[Link]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 link yahoo-jp-link http://yahoo.jp
 '@
 
@@ -235,7 +250,8 @@ ECHO ''
 ECHO '[Image]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
+#PowerShell
 img alt-text-here https://github.com/rancomma/MarkDownPS/github.png
 '@
 

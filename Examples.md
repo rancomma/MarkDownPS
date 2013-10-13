@@ -3,6 +3,7 @@
 
 
 ```PowerShell
+#PowerShell
 H1 Heding1
 H2 Heding2
 H3 Heding3
@@ -30,6 +31,7 @@ Heding2
 
 
 ```PowerShell
+#PowerShell
 HR
 HR WordsLength
 HR ---------------------
@@ -46,6 +48,7 @@ HR ---------------------
 
 
 ```PowerShell
+#PowerShell
 REF 1 http://google.jp google-jp
 REF 2 http://yahoo.jp yahoo-jp
 ```
@@ -68,6 +71,7 @@ REF 2 http://yahoo.jp yahoo-jp
 
 
 ```PowerShell
+#PowerShell
 P Paragraph-OneLine
 P 'Paragraph One',
   'Paragraph Two',
@@ -85,6 +89,7 @@ Paragraph Three
 
 
 ```PowerShell
+#PowerShell
 L 'List One',
   'List Two',
   'List Three'
@@ -99,6 +104,7 @@ L 'List One',
 
 
 ```PowerShell
+#PowerShell
 Ln 'Number List One',
    'Number List Two',
    'Number List Three'
@@ -113,6 +119,7 @@ Ln 'Number List One',
 
 
 ```PowerShell
+#PowerShell
 L1 'Numbering Line One',
    'continue One...',
    'continue One...'
@@ -134,7 +141,8 @@ L2 'Numbering Line Three',
 [Code]
 
 
-```
+```PowerShell
+#PowerShell
 LC '# LC = Line Code',
    'ls  Examples.ps1',
    'ps excel',
@@ -153,7 +161,8 @@ ps excel
 [Code, Syntax]
 
 
-```
+```PowerShell
+#PowerShell
 LC '# Add Syntax',
    '# LC = Line Codes',
    'ls  Examples.ps1',
@@ -174,7 +183,8 @@ ps excel
 [Quote]
 
 
-```
+```PowerShell
+#PowerShell
 Q 'Quote One',
   'Quote Two',
   'Quote Three'
@@ -188,7 +198,8 @@ Q 'Quote One',
 [Break Line]
 
 
-```
+```PowerShell
+#PowerShell
 @(
      'abc'
      'breakline' | br
@@ -203,7 +214,8 @@ def
 [Emphasis]
 
 
-```
+```PowerShell
+#PowerShell
 e1 italic_word
 e2 bold_word
 e3 italicbold_word
@@ -216,7 +228,8 @@ e3 italicbold_word
 [Emphasis, italic, bold, italicbold]
 
 
-```
+```PowerShell
+#PowerShell
 italic word-e1
 bold word-e2
 italicbold word-e3
@@ -229,7 +242,8 @@ italicbold word-e3
 [Code]
 
 
-```
+```PowerShell
+#PowerShell
 code '$a = 1'
 ```
 
@@ -238,7 +252,8 @@ code '$a = 1'
 [Link]
 
 
-```
+```PowerShell
+#PowerShell
 link yahoo-jp-link http://yahoo.jp
 ```
 
@@ -247,7 +262,8 @@ link yahoo-jp-link http://yahoo.jp
 [Image]
 
 
-```
+```PowerShell
+#PowerShell
 img alt-text-here https://github.com/rancomma/MarkDownPS/github.png
 ```
 
