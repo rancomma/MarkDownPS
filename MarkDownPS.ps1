@@ -214,8 +214,18 @@ function Q # Quote
   param(
     $m
   )
+  $count = @($m).Count
+  $i = 0
   @($m) | % {
-    "> $($_)"
+    $i++
+    if ($i -lt $count)
+    {
+      "> $_" | br
+    }
+    else
+    {
+      "> $_"
+    }
   }
   $NEWLINE
 }

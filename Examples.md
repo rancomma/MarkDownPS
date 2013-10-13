@@ -76,8 +76,8 @@ ps excel
 
 (insert Paragraph)
 
-> Quote One
-> Quote Two
+> Quote One  
+> Quote Two  
 > Quote Three
 
 abc  
