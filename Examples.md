@@ -1,6 +1,16 @@
 ﻿
 [Headding]
 
+
+```
+H1 Heding1
+H2 Heding2
+H3 Heding3
+H4 Heding4
+H5 Heding5
+H6 Heding6
+```
+
 Heding1
 =======
 
@@ -18,6 +28,13 @@ Heding2
 
 [Horizontal Line]
 
+
+```
+HR
+HR WordsLength
+HR ---------------------
+```
+
 ---
 
 -----------
@@ -27,12 +44,27 @@ Heding2
 
 [Reference URL]
 
+
+```
+HR
+REF 1 http://google.jp google-jp
+REF 2 http://yahoo.jp yahoo-jp
+```
+
   [1]: http://google.jp  "google-jp"
 
   [2]: http://yahoo.jp  "yahoo-jp"
 
 
 [Paragraph]
+
+
+```
+P Paragraph-OneLine
+P 'Paragraph One',
+  'Paragraph Two',
+  'Paragraph Three'
+```
 
 Paragraph-OneLine
 
@@ -43,12 +75,22 @@ Paragraph Three
 
 [List]
 
-* List One
-* List Two
-* List Three
+
+```
+L 'List One',
+  'List Two',
+  'List Three'
+```
 
 
 [Number List]
+
+
+```
+Ln 'Number List One',
+   'Number List Two',
+   'Number List Three'
+```
 
 1. Number List One
 2. Number List Two
@@ -56,6 +98,16 @@ Paragraph Three
 
 
 [Number List, Paragraph]
+
+
+```
+L1 'Numbering Line One',
+   'continue One...',
+   'continue One...'
+L2 'Numbering Line Two'
+L2 'Numbering Line Three',
+   'continue Three...'
+```
 
 1. Numbering Line One  
    continue One...  
@@ -71,6 +123,14 @@ Paragraph Three
 
 
 ```
+LC '# LC = Line Code',
+   'ls  Examples.ps1',
+   'ps excel',
+   '1..10 | Get-Random'
+```
+
+
+```
 # LC = Line Code
 ls  Examples.ps1
 ps excel
@@ -79,6 +139,15 @@ ps excel
 
 
 [Code, Syntax]
+
+
+```
+LC '# Add Syntax',
+   '# LC = Line Codes',
+   'ls  Examples.ps1',
+   'ps excel',
+   '1..10 | Get-Random' -syntax PowerShell
+```
 
 
 ```PowerShell
@@ -92,6 +161,13 @@ ps excel
 
 [Quote]
 
+
+```
+Q 'Quote One',
+  'Quote Two',
+  'Quote Three'
+```
+
 > Quote One  
 > Quote Two  
 > Quote Three
@@ -99,11 +175,27 @@ ps excel
 
 [Break Line]
 
+
+```
+@(
+     'abc'
+     'breakline' | br
+     'def'
+)
+```
+
 abc
 breakline  
 def
 
 [Emphasis]
+
+
+```
+e1 italic_word
+e2 bold_word
+e3 italicbold_word
+```
 
 *italic_word*
 **bold_word**
@@ -111,19 +203,41 @@ def
 
 [Emphasis, italic, bold, italicbold]
 
+
+```
+italic word-e1
+bold word-e2
+italicbold word-e3
+```
+
 *word-e1*
 **word-e2**
 ***word-e3***
 
 [Code]
 
+
+```
+code '$a = 1'
+```
+
 `$a = 1`
 
 [Link]
 
+
+```
+link yahoo-jp-link http://yahoo.jp
+```
+
 [yahoo-jp-link](http://yahoo.jp)
 
 [Image]
+
+
+```
+img alt-text-here https://github.com/rancomma/MarkDownPS/github.png
+```
 
 [alt-text-here](https://github.com/rancomma/MarkDownPS/github.png)
 
