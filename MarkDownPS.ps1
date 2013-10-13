@@ -88,8 +88,18 @@ function P # Paragraph
   param(
     $m
   )
+  $count = @($m).Count
+  $i = 0
   @($m) | % {
-    "$_"
+    $i++
+    if ($i -lt $count)
+    {
+      "$_" | br
+    }
+    else
+    {
+      "$_"
+    }
   }
   $NEWLINE
 }
@@ -103,22 +113,49 @@ function L # List
   }
   $NEWLINE
 }
-function L1 # List Number 1
+function Ln # Number List
 {
   param(
     $m
   )
   $i = 0
   @($m) | % {
-    if ($i -eq 0)
+    $i++
+    "$($i). $_"
+  }
+  $NEWLINE
+}
+function L1 # List Number 1
+{
+  param(
+    $m
+  )
+  $i = 0
+  $count = @($m).Count
+  @($m) | % {
+    $i++
+    if ($i -eq 1)
     {
-      "1. $_"
+      if ($i -lt $count)
+      {
+        "1. $_" | br
+      }
+      else
+      {
+        "1. $_"
+      }
     }
     else
     {
-      "   $_"
+      if ($i -lt $count)
+      {
+        "   $_" | br
+      }
+      else
+      {
+        "   $_"
+      }
     }
-    $i++
   }
   $NEWLINE
 }
@@ -128,16 +165,31 @@ function L2 # List Number 2...
     $m
   )
   $i = 0
+  $count = @($m).Count
   @($m) | % {
-    if ($i -eq 0)
+    $i++
+    if ($i -eq 1)
     {
-      "2. $_"
+      if ($i -lt $count)
+      {
+        "2. $_" | br
+      }
+      else
+      {
+        "2. $_"
+      }
     }
     else
     {
-      "   $_"
+      if ($i -lt $count)
+      {
+        "   $_" | br
+      }
+      else
+      {
+        "   $_"
+      }
     }
-    $i++
   }
   $NEWLINE
 }

@@ -19,7 +19,9 @@ L 'List One',
   'List Two',
   'List Three'
 P '(insert Paragraph)'
-L1 OneLine-Numbering
+Ln 'Number List One',
+   'Number List Two',
+   'Number List Three'
 P '(insert Paragraph)'
 L1 'Numbering Line One',
    'continue One...',

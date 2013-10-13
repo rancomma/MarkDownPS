@@ -24,8 +24,8 @@ Heding2
 
 Paragraph-OneLine
 
-Paragraph One
-Paragraph Two
+Paragraph One  
+Paragraph Two  
 Paragraph Three
 
 * OneList
@@ -38,17 +38,19 @@ Paragraph Three
 
 (insert Paragraph)
 
-1. OneLine-Numbering
+1. Number List One
+2. Number List Two
+3. Number List Three
 
 (insert Paragraph)
 
-1. Numbering Line One
-   continue One...
+1. Numbering Line One  
+   continue One...  
    continue One...
 
 2. Numbering Line Two
 
-2. Numbering Line Three
+2. Numbering Line Three  
    continue Three...
 
 (insert Paragraph)
@@ -78,8 +80,8 @@ ps excel
 > Quote Two
 > Quote Three
 
-abc
-breakline  
+abc  
+breakline    
 def
 
 *italic_word*
