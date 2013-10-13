@@ -56,10 +56,8 @@ REF 2 http://yahoo.jp yahoo-jp
 
 ```
 '(result)'
-  [1]: http://google.jp  "google-jp"
-
-  [2]: http://yahoo.jp  "yahoo-jp"
-
+(_)(_)[1]: http://google.jp  "google-jp"
+(_)(_)[2]: http://yahoo.jp  "yahoo-jp"
 ```
 
   [1]: http://google.jp  "google-jp"
@@ -216,28 +214,28 @@ def
 
 ```PowerShell
 #PowerShell
-e1 italic_word
-e2 bold_word
-e3 italicbold_word
+e1 italic_word       | br
+e2 bold_word         | br
+e3 italicbold_word   | br
 ```
 
-*italic_word*
-**bold_word**
-***italicbold_word***
+*italic_word*  
+**bold_word**  
+***italicbold_word***  
 
 [Emphasis, italic, bold, italicbold]
 
 
 ```PowerShell
 #PowerShell
-italic word-e1
-bold word-e2
-italicbold word-e3
+italic word-e1         | br
+bold word-e2           | br
+italicbold word-e3     | br
 ```
 
-*word-e1*
-**word-e2**
-***word-e3***
+*word-e1*  
+**word-e2**  
+***word-e3***  
 
 [Code]
 

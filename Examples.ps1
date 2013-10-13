@@ -46,10 +46,8 @@ REF 2 http://yahoo.jp yahoo-jp
 
 LC @'
 '(result)'
-  [1]: http://google.jp  "google-jp"
-
-  [2]: http://yahoo.jp  "yahoo-jp"
-
+(_)(_)[1]: http://google.jp  "google-jp"
+(_)(_)[2]: http://yahoo.jp  "yahoo-jp"
 '@
 
 REF 1 http://google.jp google-jp
@@ -199,14 +197,14 @@ ECHO ''
 
 LC -syntax PowerShell @'
 #PowerShell
-e1 italic_word
-e2 bold_word
-e3 italicbold_word
+e1 italic_word       | br
+e2 bold_word         | br
+e3 italicbold_word   | br
 '@
 
-e1 italic_word
-e2 bold_word
-e3 italicbold_word
+e1 italic_word       | br
+e2 bold_word         | br
+e3 italicbold_word   | br
 
 ECHO ''
 ECHO '[Emphasis, italic, bold, italicbold]'
@@ -214,14 +212,14 @@ ECHO ''
 
 LC -syntax PowerShell @'
 #PowerShell
-italic word-e1
-bold word-e2
-italicbold word-e3
+italic word-e1         | br
+bold word-e2           | br
+italicbold word-e3     | br
 '@
 
-italic word-e1
-bold word-e2
-italicbold word-e3
+italic word-e1         | br
+bold word-e2           | br
+italicbold word-e3     | br
 
 ECHO ''
 ECHO '[Code]'
