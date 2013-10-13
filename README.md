@@ -1,142 +1,269 @@
-﻿GitHub Flavored Markdown
-========================
+﻿
+[Headding]
 
-*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
 
-Let's get the whole 
+```PowerShell
+#PowerShell
+H1 Heding1
+H2 Heding2
+H3 Heding3
+H4 Heding4
+H5 Heding5
+H6 Heding6
+```
 
-Roses are red
-Violets are blue
+Heding1
+=======
 
-The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
+Heding2
+-------
 
-Roses are red  
-Violets are blue
+### Heding3 ###
 
-Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
+#### Heding4 ####
 
-A bit of the GitHub spice
--------------------------
+##### Heding5 #####
 
-In addition to the changes in the previous section, certain references are auto-linked:
+###### Heding6 ######
 
-* SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
-* User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
-* User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
-* \#Num: #1
-* User/#Num: mojombo#1
-* User/Project#Num: mojombo/god#1
 
-These are dangerous goodies though, and we need to make sure email addresses don
+[Horizontal Line]
 
-In first grade I learned that 5 > 3 and 2 < 7. Maybe some arrows. 1 -> 2 -> 3. 9 <- 8 <- 7.
 
-Triangles man! a^2 + b^2 = c^2
+```PowerShell
+#PowerShell
+HR
+HR WordsLength
+HR ---------------------
+```
 
-We all like making lists
-------------------------
+---
 
-The above header should be an H2 tag. Now, for a list of fruits:
+-----------
 
-* Red Apples
-* Purple Grapes
-* Green Kiwifruits
+---------------------
 
-Let's get crazy:
 
-1. This is a list item with two paragraphs. Lorem ipsum dolor
-   sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-   mi posuere lectus.
-   
-   Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-   vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-   sit amet velit.
+[Reference URL]
 
-2. Suspendisse id sem consectetuer libero luctus adipiscing.
 
-What about some code **in** a list? That's insane, right?
-
-1. In Ruby you can map like this:
-
-        ['a', 'b'].map { |x| x.uppercase }
-
-1. In Rails, you can do a shortcut:
-
-        ['a', 'b'].map(&:uppercase)
-
-Some people seem to like definition lists
-
-<dl>
-  <dt>Lower cost</dt>
-  <dd>The new version of this product costs significantly less than the previous one!</dd>
-  <dt>Easier to use</dt>
-  <dd>We've changed the product so that it's much easier to use!</dd>
-</dl>
-
-I am a robot
-------------
-
-Maybe you want to print `robot` to the console 1000 times. Why not?
+```PowerShell
+#PowerShell
+REF 1 http://google.jp google-jp
+REF 2 http://yahoo.jp yahoo-jp
+```
 
 
 ```
-def robot_invasion
-  puts("robot " * 1000)
-end
+'(result)'
+(_)(_)[1]: http://google.jp  "google-jp"
+(_)(_)[2]: http://yahoo.jp  "yahoo-jp"
 ```
 
-You see, that was formatted as code because it's been indented by four spaces.
+  [1]: http://google.jp  "google-jp"
 
-How about we throw some angle braces and ampersands in there?
+  [2]: http://yahoo.jp  "yahoo-jp"
 
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
 
-Set in stone
-------------
+[Paragraph]
 
-Preformatted blocks are useful for ASCII art:
 
-Playing the blame game
-----------------------
+```PowerShell
+#PowerShell
+P Paragraph-OneLine
+P 'Paragraph One',
+  'Paragraph Two',
+  'Paragraph Three'
+```
 
-If you need to blame someone, the best way to do so is by quoting them:
+Paragraph-OneLine
 
-> I, at any rate, am convinced that He does not throw dice.
+Paragraph One  
+Paragraph Two  
+Paragraph Three
 
-Or perhaps someone a little less eloquent:
 
-> I wish you'd have given me this written question ahead of time so I
-> could plan for it... I'm sure something will pop into my head here in
-> the midst of this press conference, with all the pressure of trying to
-> come up with answer, but it hadn't yet...
-> 
-> I don't want to sound like
-> I have made no mistakes. I'm confident I have. I just haven't - you
-> just put me under the spot here, and maybe I'm not as quick on my feet
-> as I should be in coming up with one.
+[List]
 
-Table for two
--------------
 
-<table>
-  <tr>
-    <th>ID</th><th>Name</th><th>Rank</th>
-  </tr>
-  <tr>
-    <td>1</td><td>Tom Preston-Werner</td><td>Awesome</td>
-  </tr>
-  <tr>
-    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
-  </tr>
-</table>
-Crazy linking action
---------------------
+```PowerShell
+#PowerShell
+L 'List One',
+  'List Two',
+  'List Three'
+```
 
-I get 10 times more traffic from [Google] [1] than from
-[Yahoo] [2] or [MSN] [3].
+* List One
+* List Two
+* List Three
 
-  [1]: http://google.com/  "Google"
-  [2]: http://search.yahoo.com/  "Yahoo Search"
-  [3]: http://search.msn.com/  "MSN Search"
+
+[Number List]
+
+
+```PowerShell
+#PowerShell
+Ln 'Number List One',
+   'Number List Two',
+   'Number List Three'
+```
+
+1. Number List One
+2. Number List Two
+3. Number List Three
+
+
+[Number List, Paragraph]
+
+
+```PowerShell
+#PowerShell
+L1 'Numbering Line One',
+   'continue One...',
+   'continue One...'
+L2 'Numbering Line Two'
+L2 'Numbering Line Three',
+   'continue Three...'
+```
+
+1. Numbering Line One  
+   continue One...  
+   continue One...
+
+2. Numbering Line Two
+
+2. Numbering Line Three  
+   continue Three...
+
+
+[Code]
+
+
+```PowerShell
+#PowerShell
+LC '# LC = Line Code',
+   'ls  Examples.ps1',
+   'ps excel',
+   '1..10 | Get-Random'
+```
+
+
+```
+# LC = Line Code
+ls  Examples.ps1
+ps excel
+1..10 | Get-Random
+```
+
+
+[Code, Syntax]
+
+
+```PowerShell
+#PowerShell
+LC '# Add Syntax',
+   '# LC = Line Codes',
+   'ls  Examples.ps1',
+   'ps excel',
+   '1..10 | Get-Random' -syntax PowerShell
+```
+
+
+```PowerShell
+# Add Syntax
+# LC = Line Codes
+ls  Examples.ps1
+ps excel
+1..10 | Get-Random
+```
+
+
+[Quote]
+
+
+```PowerShell
+#PowerShell
+Q 'Quote One',
+  'Quote Two',
+  'Quote Three'
+```
+
+> Quote One  
+> Quote Two  
+> Quote Three
+
+
+[Break Line]
+
+
+```PowerShell
+#PowerShell
+@(
+     'abc'
+     'breakline' | br
+     'def'
+)
+```
+
+abc
+breakline  
+def
+
+[Emphasis]
+
+
+```PowerShell
+#PowerShell
+e1 italic_word       | br
+e2 bold_word         | br
+e3 italicbold_word   | br
+```
+
+*italic_word*  
+**bold_word**  
+***italicbold_word***  
+
+[Emphasis, italic, bold, italicbold]
+
+
+```PowerShell
+#PowerShell
+italic word-e1         | br
+bold word-e2           | br
+italicbold word-e3     | br
+```
+
+*word-e1*  
+**word-e2**  
+***word-e3***  
+
+[Code]
+
+
+```PowerShell
+#PowerShell
+code '$a = 1'
+```
+
+`$a = 1`
+
+[Link]
+
+
+```PowerShell
+#PowerShell
+link yahoo-jp-link http://yahoo.jp
+```
+
+[yahoo-jp-link](http://yahoo.jp)
+
+[Image]
+
+
+```PowerShell
+#PowerShell
+img alt-text-here https://github.com/rancomma/MarkDownPS/github.png
+```
+
+[alt-text-here](https://github.com/rancomma/MarkDownPS/github.png)
+
