@@ -1,3 +1,9 @@
+#MarkDownPS.ps1
+#Author rancomma@gmail.com twitter @rancomma
+
+#Used Aliases
+#       % = ForEach-Object
+
 # SINGLE LINE Function
 $NEWLINE = ''
 function H1 #Heading H1
@@ -272,7 +278,6 @@ function italic # emphasis 1
 }
 function bold # emphasis 2
 {
-  [CmdletBinding()]
   param(
     [Parameter(ValueFromPipeline=$true)]
     $s
