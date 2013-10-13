@@ -1,7 +1,10 @@
 H1 'GFM, MarkDown, PowerShell'
 
-P ' . ./MarkDownPS.ps1'
-P ' . ./any.ps1'
+P '. ./MarkDownPS.ps1'
+P '. ./any.ps1'
+
+
+P '. ./any.ps1 | Out-File -Encoding utf8 ./any.md'
 
 HR
 

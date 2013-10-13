@@ -317,10 +317,10 @@ function img # image
   )
   if ($Title)
   {
-    "[$ALtText]($Link) `"$($Title)`""
+    "![$ALtText]($Link) `"$($Title)`""
   }
   else
   {
-    "[$ALtText]($Link)"
+    "![$ALtText]($Link)"
   }
 }
