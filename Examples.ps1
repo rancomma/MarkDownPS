@@ -2,7 +2,7 @@ ECHO ''
 ECHO '[Headding]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
 H1 Heding1
 H2 Heding2
 H3 Heding3
@@ -22,7 +22,7 @@ ECHO ''
 ECHO '[Horizontal Line]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
 HR
 HR WordsLength
 HR ---------------------
@@ -36,8 +36,7 @@ ECHO ''
 ECHO '[Reference URL]'
 ECHO ''
 
-LC @'
-HR
+LC -syntax PowerShell @'
 REF 1 http://google.jp google-jp
 REF 2 http://yahoo.jp yahoo-jp
 '@
@@ -49,7 +48,7 @@ ECHO ''
 ECHO '[Paragraph]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
 P Paragraph-OneLine
 P 'Paragraph One',
   'Paragraph Two',
@@ -65,17 +64,21 @@ ECHO ''
 ECHO '[List]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
 L 'List One',
   'List Two',
   'List Three'
 '@
 
+L 'List One',
+  'List Two',
+  'List Three'
+
 ECHO ''
 ECHO '[Number List]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
 Ln 'Number List One',
    'Number List Two',
    'Number List Three'
@@ -89,7 +92,7 @@ ECHO ''
 ECHO '[Number List, Paragraph]'
 ECHO ''
 
-LC @'
+LC -syntax PowerShell @'
 L1 'Numbering Line One',
    'continue One...',
    'continue One...'

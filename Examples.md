@@ -2,7 +2,7 @@
 [Headding]
 
 
-```
+```PowerShell
 H1 Heding1
 H2 Heding2
 H3 Heding3
@@ -29,7 +29,7 @@ Heding2
 [Horizontal Line]
 
 
-```
+```PowerShell
 HR
 HR WordsLength
 HR ---------------------
@@ -45,8 +45,7 @@ HR ---------------------
 [Reference URL]
 
 
-```
-HR
+```PowerShell
 REF 1 http://google.jp google-jp
 REF 2 http://yahoo.jp yahoo-jp
 ```
@@ -59,7 +58,7 @@ REF 2 http://yahoo.jp yahoo-jp
 [Paragraph]
 
 
-```
+```PowerShell
 P Paragraph-OneLine
 P 'Paragraph One',
   'Paragraph Two',
@@ -76,17 +75,21 @@ Paragraph Three
 [List]
 
 
-```
+```PowerShell
 L 'List One',
   'List Two',
   'List Three'
 ```
 
+* List One
+* List Two
+* List Three
+
 
 [Number List]
 
 
-```
+```PowerShell
 Ln 'Number List One',
    'Number List Two',
    'Number List Three'
@@ -100,7 +103,7 @@ Ln 'Number List One',
 [Number List, Paragraph]
 
 
-```
+```PowerShell
 L1 'Numbering Line One',
    'continue One...',
    'continue One...'
