@@ -1,5 +1,5 @@
 ﻿
-Headding
+[Headding]
 
 Heding1
 =======
@@ -16,7 +16,7 @@ Heding2
 ###### Heding6 ######
 
 
-Horizontal Line
+[Horizontal Line]
 
 ---
 
@@ -25,14 +25,14 @@ Horizontal Line
 ---------------------
 
 
-Reference URL
+[Reference URL]
 
   [1]: http://google.jp  "google-jp"
 
   [2]: http://yahoo.jp  "yahoo-jp"
 
 
-Paragraph
+[Paragraph]
 
 Paragraph-OneLine
 
@@ -41,21 +41,21 @@ Paragraph Two
 Paragraph Three
 
 
-List
+[List]
 
 * List One
 * List Two
 * List Three
 
 
-Number List
+[Number List]
 
 1. Number List One
 2. Number List Two
 3. Number List Three
 
 
-Number List, Paragraph
+[Number List, Paragraph]
 
 1. Numbering Line One  
    continue One...  
@@ -67,18 +67,18 @@ Number List, Paragraph
    continue Three...
 
 
-Codes
+[Code]
 
 
 ```
-# LC = Line Codes
+# LC = Line Code
 ls  Examples.ps1
 ps excel
 1..10 | Get-Random
 ```
 
 
-Codes, Syntax
+[Code, Syntax]
 
 
 ```PowerShell
@@ -90,40 +90,40 @@ ps excel
 ```
 
 
-Quote
+[Quote]
 
 > Quote One  
 > Quote Two  
 > Quote Three
 
 
-Break Line
+[Break Line]
 
 abc
 breakline  
 def
 
-Emphasis
+[Emphasis]
 
 *italic_word*
 **bold_word**
 ***italicbold_word***
 
-Emphasis, italic, bold, italicbold
+[Emphasis, italic, bold, italicbold]
 
 *word-e1*
 **word-e2**
 ***word-e3***
 
-code
+[Code]
 
 `$a = 1`
 
-Link
+[Link]
 
 [yahoo-jp-link](http://yahoo.jp)
 
-Image
+[Image]
 
 [alt-text-here](https://github.com/rancomma/MarkDownPS/github.png)
 

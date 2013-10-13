@@ -1,5 +1,5 @@
 ECHO ''
-ECHO 'Headding'
+ECHO '[Headding]'
 ECHO ''
 
 H1 Heding1
@@ -10,7 +10,7 @@ H5 Heding5
 H6 Heding6
 
 ECHO ''
-ECHO 'Horizontal Line'
+ECHO '[Horizontal Line]'
 ECHO ''
 
 HR
@@ -18,14 +18,14 @@ HR WordsLength
 HR ---------------------
 
 ECHO ''
-ECHO 'Reference URL'
+ECHO '[Reference URL]'
 ECHO ''
 
 REF 1 http://google.jp google-jp
 REF 2 http://yahoo.jp yahoo-jp
 
 ECHO ''
-ECHO 'Paragraph'
+ECHO '[Paragraph]'
 ECHO ''
 
 P Paragraph-OneLine
@@ -34,7 +34,7 @@ P 'Paragraph One',
   'Paragraph Three'
 
 ECHO ''
-ECHO 'List'
+ECHO '[List]'
 ECHO ''
 
 L 'List One',
@@ -42,7 +42,7 @@ L 'List One',
   'List Three'
 
 ECHO ''
-ECHO 'Number List'
+ECHO '[Number List]'
 ECHO ''
 
 Ln 'Number List One',
@@ -50,7 +50,7 @@ Ln 'Number List One',
    'Number List Three'
 
 ECHO ''
-ECHO 'Number List, Paragraph'
+ECHO '[Number List, Paragraph]'
 ECHO ''
 
 L1 'Numbering Line One',
@@ -61,16 +61,16 @@ L2 'Numbering Line Three',
    'continue Three...'
 
 ECHO ''
-ECHO 'Codes'
+ECHO '[Code]'
 ECHO ''
 
-LC '# LC = Line Codes',
+LC '# LC = Line Code',
    'ls  Examples.ps1',
    'ps excel',
    '1..10 | Get-Random'
 
 ECHO ''
-ECHO 'Codes, Syntax'
+ECHO '[Code, Syntax]'
 ECHO ''
 
 LC '# Add Syntax',
@@ -80,7 +80,7 @@ LC '# Add Syntax',
    '1..10 | Get-Random' -syntax PowerShell
 
 ECHO ''
-ECHO 'Quote'
+ECHO '[Quote]'
 ECHO ''
 
 Q 'Quote One',
@@ -88,7 +88,7 @@ Q 'Quote One',
   'Quote Three'
 
 ECHO ''
-ECHO 'Break Line'
+ECHO '[Break Line]'
 ECHO ''
 
 @(
@@ -98,7 +98,7 @@ ECHO ''
 )
 
 ECHO ''
-ECHO 'Emphasis'
+ECHO '[Emphasis]'
 ECHO ''
 
 e1 italic_word
@@ -106,7 +106,7 @@ e2 bold_word
 e3 italicbold_word
 
 ECHO ''
-ECHO 'Emphasis, italic, bold, italicbold'
+ECHO '[Emphasis, italic, bold, italicbold]'
 ECHO ''
 
 italic word-e1
@@ -114,20 +114,20 @@ bold word-e2
 italicbold word-e3
 
 ECHO ''
-ECHO 'code'
+ECHO '[Code]'
 ECHO ''
 
 code '$a = 1'
 
 ECHO ''
-ECHO 'Link'
+ECHO '[Link]'
 ECHO ''
 
 link yahoo-jp-link http://yahoo.jp
 
 
 ECHO ''
-ECHO 'Image'
+ECHO '[Image]'
 ECHO ''
 
 img alt-text-here https://github.com/rancomma/MarkDownPS/github.png
