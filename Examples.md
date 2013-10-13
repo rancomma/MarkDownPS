@@ -50,6 +50,15 @@ REF 1 http://google.jp google-jp
 REF 2 http://yahoo.jp yahoo-jp
 ```
 
+
+```
+'(result)'
+  [1]: http://google.jp  "google-jp"
+
+  [2]: http://yahoo.jp  "yahoo-jp"
+
+```
+
   [1]: http://google.jp  "google-jp"
 
   [2]: http://yahoo.jp  "yahoo-jp"
